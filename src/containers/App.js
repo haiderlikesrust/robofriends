@@ -34,7 +34,7 @@ class App extends Component {
             return robot.name.toLowerCase().includes(searchField.toLowerCase());
         })
         if (!robots.length) {
-            return <h1>Loading</h1>
+            return <h1 style={{textAlign: "center"}}>Loading</h1>
         } else{
             return(
                 <div className="tc">
